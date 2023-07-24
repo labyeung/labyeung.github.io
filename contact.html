@@ -15,17 +15,18 @@
     </head>
     <body class="d-flex flex-column">
         <main class="flex-shrink-0">
-            <!-- Navigation-->
+             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">Yeung Lab</a>
+                    <a class="navbar-brand" href="index.html"><span style="padding-right: 50px;">Yeung Lab</span><img src="imgs/uhn-logo-with-michener.png" alt="Logo" style="width: 150px; height: auto;">
+    <img src="imgs/UTCrst_Left_White.png" alt="Logo" style="width: 130px; height: auto;">
+    <img src="imgs/latner.png" alt="Logo" style="width: 150px; height: auto;">  </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="about.html">Our Team</a></li>
                             <li class="nav-item"><a class="nav-link" href="blog-home.html">Research</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">For Patients</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                             <li class="nav-item"><a class="nav-link" href="https://www.researchgate.net/profile/Jonathan-Yeung">Publications</a></li>
                         </ul>
@@ -39,20 +40,12 @@
                     <!-- Contact form-->
                     <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
                         <div class="text-center mb-5">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
                             <h1 class="fw-bolder">Get In Touch</h1>
                             <p class="lead fw-normal text-muted mb-0">Please reach out with any questions, comments, or concerns.</p>
                         </div>
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- * * SB Forms Contact Form * *-->
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- This form is pre-integrated with SB Forms.-->
-                                <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
-                                <!-- to get an API token!-->
-                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+<form action="https://formsubmit.co/labyeung@gmail.com" method="POST">
                                     <!-- Name input-->
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -66,11 +59,11 @@
                                         <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                         <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                                     </div>
-                                    <!-- Phone number input-->
+                                    <!-- Subject input -->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">Phone number</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                                        <input class="form-control" id="subject" type="text" placeholder="Enter the subject" data-sb-validations="required" />
+                                        <label for="subject">Subject</label>
+                                        <div class="invalid-feedback" data-sb-feedback="subject:required">A subject is required.</div>
                                     </div>
                                     <!-- Message input-->
                                     <div class="form-floating mb-3">
@@ -126,5 +119,3 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
-</html>
